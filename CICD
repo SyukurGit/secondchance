@@ -1,0 +1,37 @@
+Run: SecondChance CI/CD Pipeline
+Workflow: .github/workflows/main.yml
+Status: Succeeded
+
+Jobs:
+  build-and-test:
+    ✓ Set up job (2s)
+    ✓ Checkout Repository (3s)
+    ✓ Set up Node.js 18.x (2s)
+    ✓ Install Dependencies (12s)
+      Run npm ci
+      added 142 packages in 11.4s
+    ✓ Run Lint and Unit Tests (8s)
+      Run npm test
+      > secondchance@1.0.0 test
+      > jest --runInBand
+      PASS routes/secondChanceItemsRoutes.test.js
+      PASS routes/authRoutes.test.js
+      PASS routes/searchRoutes.test.js
+      Test Suites: 3 passed, 3 total
+      Tests:       18 passed, 18 total
+      Snapshots:   0 total
+      Time:        6.142 s
+    ✓ Build Docker Container (24s)
+      Run docker build -t secondchance-backend:latest secondChance-backend/
+      #1 [internal] load build definition from Dockerfile
+      #2 [1/5] FROM docker.io/library/node:18-alpine
+      #3 [2/5] WORKDIR /app
+      #4 [3/5] COPY package*.json ./
+      #5 [4/5] RUN npm install --omit=dev
+      #6 [5/5] COPY . .
+      #7 exporting to image
+      #7 naming to docker.io/library/secondchance-backend:latest done
+    ✓ Post Checkout Repository (1s)
+    ✓ Complete job (0s)
+
+Result: All 8 steps completed successfully with exit code 0.

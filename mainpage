@@ -1,0 +1,43 @@
+curl http://localhost:3060/api/secondchance/items
+
+[
+  {
+    "id": "875",
+    "name": "Lamp",
+    "category": "Kitchen",
+    "condition": "New",
+    "posted_by": "26872",
+    "zipcode": "94805",
+    "date_added": 1693267200,
+    "age_days": 400,
+    "age_years": 1.1,
+    "description": "A charming lamp that's been lighting up my reading nook. Moving out and can't take it along. Perfect for ambient lighting in any room.",
+    "image": "/images/lamp.jpeg"
+  },
+  {
+    "id": "396",
+    "name": "Curtain",
+    "category": "Office",
+    "condition": "Older",
+    "posted_by": "26872",
+    "zipcode": "94504",
+    "date_added": 1686960000,
+    "age_days": 1073,
+    "age_years": 2.94,
+    "description": "Elegant, flowy curtains that have graced my living room windows. Gently used and well-loved, ready to bring warmth to a new home.",
+    "image": "/images/curtains1.jpeg"
+  },
+  {
+    "id": "1",
+    "name": "Coffee Table",
+    "category": "Living Room",
+    "condition": "Like New",
+    "posted_by": "10421",
+    "zipcode": "94103",
+    "date_added": 1695427200,
+    "age_days": 210,
+    "age_years": 0.6,
+    "description": "Solid oak wood coffee table in pristine condition. Selling because of relocation.",
+    "image": "/images/coffee-table.jpeg"
+  }
+]

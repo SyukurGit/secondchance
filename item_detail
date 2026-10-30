@@ -1,0 +1,22 @@
+curl http://localhost:3060/api/secondchance/items/1
+
+{
+  "_id": "653a2b1c4d5e6f7a8b9c0d1e",
+  "id": "1",
+  "name": "Coffee Table",
+  "category": "Living Room",
+  "condition": "Like New",
+  "posted_by": "10421",
+  "zipcode": "94103",
+  "date_added": 1695427200,
+  "age_days": 210,
+  "age_years": 0.6,
+  "description": "Solid oak wood coffee table in pristine condition. Selling because of relocation. Minor signs of gentle wear, otherwise spotless.",
+  "image": "/images/coffee-table.jpeg",
+  "comments": [
+    {
+      "author": "Michael Scott",
+      "comment": "Is this still available for pickup this weekend?"
+    }
+  ]
+}

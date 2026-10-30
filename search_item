@@ -1,0 +1,32 @@
+curl "http://localhost:3060/api/secondchance/search?category=Living%20Room"
+
+[
+  {
+    "_id": "653a2b1c4d5e6f7a8b9c0d1e",
+    "id": "1",
+    "name": "Coffee Table",
+    "category": "Living Room",
+    "condition": "Like New",
+    "posted_by": "10421",
+    "zipcode": "94103",
+    "date_added": 1695427200,
+    "age_days": 210,
+    "age_years": 0.6,
+    "description": "Solid oak wood coffee table in pristine condition. Selling because of relocation.",
+    "image": "/images/coffee-table.jpeg"
+  },
+  {
+    "_id": "653a2b1c4d5e6f7a8b9c0d2f",
+    "id": "2",
+    "name": "Sofa Couch",
+    "category": "Living Room",
+    "condition": "Good",
+    "posted_by": "10421",
+    "zipcode": "94103",
+    "date_added": 1695427200,
+    "age_days": 540,
+    "age_years": 1.5,
+    "description": "Comfortable 3-seater fabric couch in navy blue. No tears or pet damage.",
+    "image": "/images/couch.jpeg"
+  }
+]
